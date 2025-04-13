@@ -40,7 +40,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 # Use the latest approved GMS identifiers
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="r8qxx-user 11 RP1A.200720.012 G780GXXSDEXJ3 release-keys" \
+    BuildDesc="r8qxx-user 13 TP1A.220624.014 G780GXXSDEXJ3 release-keys" \
     BuildFingerprint=samsung/r8qxx/r8q:11/RP1A.200720.012/G780GXXSDEXJ3:user/release-keys \
     DeviceProduct=r8qxx \
     SystemName=r8qxx
