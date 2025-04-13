@@ -155,6 +155,11 @@ on post-fs-data && property:ro.csc.sales_code=DSA
     umount /mnt/temp
     rmdir /mnt/temp
 
+on property:sys.boot_completed=1
+    write /sys/class/sec/tsp/cmd "aod_enable,1"
+    write /sys/class/sec/tsp/cmd "set_aod_rect,0,0,0,0"
+    write /sys/class/sec/tsp/cmd "fod_enable,0"
+
 # Device specific properties
 on property:ro.boot.em.model=SM-G780G
     setprop ro.telephony.default_network "9,9"
