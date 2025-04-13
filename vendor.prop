@@ -2,3 +2,4 @@
 ro.vendor.fingerprint.type=udfps_optical
 ro.vendor.fingerprint.sensor_location=540|2144|100
 ro.vendor.fingerprint.request_touch_event=true
+ro.vendor.fingerprint.rectangular_sensor_location=421,2025,659,2263
